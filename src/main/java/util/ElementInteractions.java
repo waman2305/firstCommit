@@ -37,7 +37,6 @@ public class ElementInteractions {
     }
 
     public static void clickElement(WebElement element) {
-        wait.until(ExpectedConditions.elementToBeClickable(element));
         try {
             element.click();
         } catch (Exception e) {
@@ -47,8 +46,19 @@ public class ElementInteractions {
     }
 
     public static void inputText(WebElement element, String text) {
-        wait.until(ExpectedConditions.visibilityOf(element));
         element.sendKeys(text);
+    }
+
+
+    public static void uploadingPhoto (WebElement element) {
+        String uploadPhoto = "C:\\java project\\MpukAutomation\\src\\main\\resources\\testPictures\\image.jpg";
+        element.sendKeys(uploadPhoto);
+    }
+
+    public static void sendOrderNumber (WebElement element) {
+        System.out.println(element.getText().trim());
+
+
     }
 
 

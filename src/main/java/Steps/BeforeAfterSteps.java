@@ -6,7 +6,7 @@ import util.MainWebDriver;
 
 public class BeforeAfterSteps {
 
-
+/*
     @Before
     public void beforeTest(){
         MainWebDriver.startDriver();
@@ -16,7 +16,7 @@ public class BeforeAfterSteps {
     @After
     public void afterTest(){
         MainWebDriver.getDriver().quit();
-    }
+    }*/
 
 
 }
