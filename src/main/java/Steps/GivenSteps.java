@@ -63,7 +63,7 @@ public class GivenSteps {
 
         Thread.sleep(1500);
 
-        ElementInteractions.hoverMouseOverAndClick(MyPictureUk.getClickNo());
+/*        ElementInteractions.hoverMouseOverAndClick(MyPictureUk.getClickNo());*/
         ElementInteractions.sendOrderNumber(MyPictureUk.getOrderNumber());
 
 

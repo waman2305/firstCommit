@@ -56,7 +56,7 @@ public class ElementInteractions {
     }
 
     public static void sendOrderNumber (WebElement element) {
-        System.out.println(element.getText().trim());
+        System.out.println("Order number: "+element.getText().trim());
 
 
     }
